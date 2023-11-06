@@ -1,0 +1,16 @@
+[package]
+name = "usbhid"
+version = "0.1.0"
+edition = "2021"
+description = "A library for interacting with USB HID devices."
+license = "MIT"
+repository = "https://github.com/sammwyy/usbhid"
+include = ["/src", "/examples"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.190"
+serde_json = "1.0.108"
+strum = "0.25.0"
+strum_macros = "0.25.3"

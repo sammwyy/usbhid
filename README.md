@@ -13,6 +13,35 @@ Rust Library for the USB HID protocol. Based on [zero-hid](https://github.com/th
 > **Legend:** ✅ Compatible, ❌ Incompatible, ⚠️ Untested.
 > **Ports:** 🎩 USB Hat, 📡 USB Port.
 
+## ⚡ Features
+
+- [X] Keyboard.
+  - [X] Keydown.
+  - [X] Keyup.
+  - [X] Type string.
+  - [X] Mod keys.
+- [X] Mouse.
+  - [X] Move to.
+  - [X] Move relative.
+  - [X] Left click.
+  - [X] Right click.
+  - [ ] Middle click.
+  - [ ] Scroll Wheel.
+- [ ] Mass storage.
+  - [ ] Write file.
+  - [ ] Read file.
+  - [ ] Delete file.
+- [ ] Ethernet.
+  - [ ] Send packet.
+  - [ ] Receive packet.
+- [ ] Gamepad.
+  - [ ] Button press.
+  - [ ] Button release.
+  - [ ] Joystick move.
+- [ ] Printer.
+  - [ ] Print text.
+  - [ ] Print image.
+
 ## ⚙ Setup
 
 Before using this library, you need to install a virtual USB HID device on your board.
